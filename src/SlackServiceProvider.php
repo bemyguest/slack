@@ -70,6 +70,8 @@ class SlackServiceProvider extends ServiceProvider {
         return new SlackServiceProviderLaravel4($app);
 
       case 5:
+      case 6:
+      case 7:
         return new SlackServiceProviderLaravel5($app);
 
       default:
