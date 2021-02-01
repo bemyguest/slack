@@ -4,7 +4,7 @@ use Maknz\Slack\Attachment;
 use Maknz\Slack\AttachmentAction;
 use Maknz\Slack\AttachmentField;
 
-class AttachmentUnitTest extends PHPUnit_Framework_TestCase
+class AttachmentUnitTest extends \PHPUnit\Framework\TestCase
 {
     public function testAttachmentCreationFromArray()
     {

@@ -3,7 +3,7 @@
 use Maknz\Slack\Message;
 use Maknz\Slack\Attachment;
 
-class MessageUnitTest extends PHPUnit_Framework_TestCase
+class MessageUnitTest extends \PHPUnit\Framework\TestCase
 {
     public function testInstantiation()
     {
